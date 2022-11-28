@@ -163,15 +163,15 @@ int main(int argc, char**argv) {
 
     pthread_t prospektor_vlakno;
     pthread_t bannici_vlakno[pocetBanikov];
+    BANNIK_DATA bd[pocetBanikov];
     pthread_create(&prospektor_vlakno, NULL, &prospektor, &pd);
     for (int i = 0; i < pocetBanikov; ++i) {
-        BANNIK_DATA bd = {
-                &nastenka,
-                i,
-                &nastenka_nie_je_prazdna,
-                &prazdna_nastenka
-        };
-        pthread_create(&bannici_vlakno[i], NULL, &bannik, &bd);
+        bd[i].nastenka = &nastenka;
+        bd[i].id = i;
+        bd[i].nastenka_nie_je_prazdna = &nastenka_nie_je_prazdna;
+        bd[i].prazdna_nastaneka = &prazdna_nastenka;
+
+        pthread_create(&bannici_vlakno[i], NULL, &bannik, &bd[i]);
     }
 
     pthread_join(prospektor_vlakno, NULL);

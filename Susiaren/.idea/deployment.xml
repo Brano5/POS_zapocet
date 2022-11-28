@@ -5,7 +5,7 @@
       <paths name="POS (a224ac6a-8be1-40b2-be7c-d04ea8556f2f)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.ap1ixGvmCJ" local="$PROJECT_DIR$" />
+            <mapping deploy="/tmp/tmp.uu4HxjAZKi" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
