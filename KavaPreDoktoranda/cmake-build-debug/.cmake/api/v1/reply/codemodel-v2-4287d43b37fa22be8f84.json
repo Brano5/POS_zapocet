@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KavaPreDoktoranda",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "KavaPreDoktoranda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KavaPreDoktoranda-Debug-079220e7620341ff6492.json",
+					"name" : "KavaPreDoktoranda",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/\u0160kola/V\u0160/3/5. semester/POS/CLion/zapocet/KavaPreDoktoranda/cmake-build-debug",
+		"source" : "D:/\u0160kola/V\u0160/3/5. semester/POS/CLion/zapocet/KavaPreDoktoranda"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

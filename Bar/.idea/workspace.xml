@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Bar" targetName="Bar" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23355bd9-940a-4174-8083-734c0e3a8564" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../2Drinkstone/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Bar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KavaPreDoktoranda/.idea/KavaPreDoktoranda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KavaPreDoktoranda/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KavaPreDoktoranda/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KavaPreDoktoranda/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KavaPreDoktoranda/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KavaPreDoktoranda/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KavaPreDoktoranda/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KavaPreDoktoranda/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/.idea/PlavbaOrava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlavbaOrava/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrvociselnyRozklad/.idea/PrvociselnyRozklad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tele/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tele/.idea/Tele.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tele/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tele/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tele/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tele/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tele/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tele/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tele/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZberCaju/.idea/ZberCaju.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZberCaju/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZberCaju/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZberCaju/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZberCaju/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZberCaju/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZberCaju/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZberCaju/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZberCaju/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/2Drinkstone.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/2Drinkstone.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/2Drinkstone.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/3.18.4/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/3.18.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/3.18.4/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/3.18.4/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2Drinkstone/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.4" />
+  </component>
+  <component name="ProjectId" id="2IAeKR73YQ5IpOxi06zWletuWov" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bar" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="20" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Bar" TARGET_NAME="Bar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Bar" RUN_TARGET_NAME="Bar">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23355bd9-940a-4174-8083-734c0e3a8564" name="Changes" comment="" />
+      <created>1669628750658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669628750658</updated>
+      <workItem from="1669628752618" duration="1641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

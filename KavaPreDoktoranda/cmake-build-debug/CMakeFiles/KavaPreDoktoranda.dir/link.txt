@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/KavaPreDoktoranda.dir/main.c.o -o KavaPreDoktoranda  -lpthread -lm 

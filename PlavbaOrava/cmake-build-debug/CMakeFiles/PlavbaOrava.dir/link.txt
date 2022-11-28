@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/PlavbaOrava.dir/main.c.o -o PlavbaOrava  -lpthread -lm 
