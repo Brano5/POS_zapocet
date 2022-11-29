@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Zachranka.dir/main.c.o -o Zachranka  -lpthread -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/SialeneOdmeny.dir/main.c.o -o SialeneOdmeny 
