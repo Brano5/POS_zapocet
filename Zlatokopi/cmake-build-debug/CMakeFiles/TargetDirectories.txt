@@ -1,0 +1,3 @@
+/tmp/tmp.mw6CfdzzIh/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.mw6CfdzzIh/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.mw6CfdzzIh/cmake-build-debug/CMakeFiles/Zlatokopi.dir
