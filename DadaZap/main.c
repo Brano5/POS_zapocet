@@ -66,7 +66,6 @@ void* konzument(void* data){
     KONZUMENTDATA* d = (KONZUMENTDATA*)data;
 
     int nach = 0;
-    int nenach = 0;
 
     printf("Zaciatok vlakna konzument!\n");
 
@@ -89,15 +88,15 @@ void* konzument(void* data){
         pthread_mutex_unlock(d->buffer->mutex);
 
         double v = ((d->r - x) * (d->r - x)) + ((d->r - y) * (d->r - y)) * 1.0;
-        if(sqrt(v) < d->r){
+
+        if(sqrt(v) <= d->r){
             nach++;
             printf("Suradnice %d a %d, sa nachadzaju v kruhu!\n", x, y);
         } else {
-            nenach++;
             printf("Suradnice %d a %d, sa nenachadzaju v kruhu!\n", x, y);
         }
     }
-    d->odhad = 4 * (nenach * 1.0 / nach);
+    d->odhad = 4 * (nach * 1.0 / d->n);
     printf("Koniec vlakna konzument!\n");
 }
 
