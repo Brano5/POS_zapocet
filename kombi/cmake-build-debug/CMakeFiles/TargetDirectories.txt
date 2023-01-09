@@ -1,0 +1,3 @@
+/tmp/tmp.BBVJfhs7GO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.BBVJfhs7GO/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.BBVJfhs7GO/cmake-build-debug/CMakeFiles/kombi.dir
