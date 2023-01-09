@@ -97,6 +97,7 @@ int main(int argc, char** argv) {
 
     int* data = malloc(sizeof (int) * 5);
 
+
     BUFFER buffer = {
             data,
             0,
