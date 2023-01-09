@@ -39,6 +39,9 @@ void* producent(void* data){
     printf("Zaciatok vlakna producent!\n");
 
     for (int i = 0; i < d->n; ++i) {
+        int x = (rand() % (2 * d->r));
+        int y = (rand() % (2 * d->r));
+
         pthread_mutex_lock(d->buffer->mutex);
 
         while(d->buffer->index >= d->buffer->kapacita){
@@ -47,9 +50,6 @@ void* producent(void* data){
         }
 
         printf("Vkladanie do bufferu!\n");
-
-        int x = (rand() % (2 * d->r));
-        int y = (rand() % (2 * d->r));
 
         d->buffer->data[d->buffer->index].x = x;
         d->buffer->data[d->buffer->index].y = y;
