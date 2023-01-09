@@ -2,9 +2,15 @@
 #include <pthread.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <math.h>
+
+typedef struct suradnice{
+    int x;
+    int y;
+} SURADNICE;
 
 typedef struct buffer{
-    int* data;
+    SURADNICE *data;
     int index;
     int kapacita;
     pthread_mutex_t* mutex;
@@ -12,12 +18,17 @@ typedef struct buffer{
 
 typedef struct producentData{
     BUFFER* buffer;
+    int n;
+    int r;
     pthread_cond_t* plno;
     pthread_cond_t* prazdno;
 } PRODUCENTDATA;
 
 typedef struct konzumentData{
     BUFFER* buffer;
+    int n;
+    int r;
+    double odhad;
     pthread_cond_t* plno;
     pthread_cond_t* prazdno;
 } KONZUMENTDATA;
@@ -27,7 +38,7 @@ void* producent(void* data){
 
     printf("Zaciatok vlakna producent!\n");
 
-    for (int i = 0; i < 20; ++i) {
+    for (int i = 0; i < d->n; ++i) {
         pthread_mutex_lock(d->buffer->mutex);
 
         while(d->buffer->index >= d->buffer->kapacita){
@@ -36,9 +47,12 @@ void* producent(void* data){
         }
 
         printf("Vkladanie do bufferu!\n");
-        usleep(3000);
 
-        d->buffer->data[d->buffer->index] = 1;
+        int x = (rand() % (2 * d->r));
+        int y = (rand() % (2 * d->r));
+
+        d->buffer->data[d->buffer->index].x = x;
+        d->buffer->data[d->buffer->index].y = y;
         d->buffer->index++;
 
         pthread_cond_broadcast(d->plno);
@@ -51,9 +65,12 @@ void* producent(void* data){
 void* konzument(void* data){
     KONZUMENTDATA* d = (KONZUMENTDATA*)data;
 
+    int nach = 0;
+    int nenach = 0;
+
     printf("Zaciatok vlakna konzument!\n");
 
-    for (int i = 0; i < 20; ++i) {
+    for (int i = 0; i < d->n; ++i) {
         pthread_mutex_lock(d->buffer->mutex);
 
         while(d->buffer->index <= 0){
@@ -62,15 +79,25 @@ void* konzument(void* data){
         }
 
         printf("Vyberanie z bufferu!\n");
-        usleep(3000);
 
-        int cislo = d->buffer->data[d->buffer->index - 1];
+        int x = d->buffer->data[d->buffer->index - 1].x;
+        int y = d->buffer->data[d->buffer->index - 1].y;
         d->buffer->index--;
 
         pthread_cond_broadcast(d->prazdno);
 
         pthread_mutex_unlock(d->buffer->mutex);
+
+        double v = ((d->r - x) * (d->r - x)) + ((d->r - y) * (d->r - y)) * 1.0;
+        if(sqrt(v) < d->r){
+            nach++;
+            printf("Suradnice %d a %d, sa nachadzaju v kruhu!\n", x, y);
+        } else {
+            nenach++;
+            printf("Suradnice %d a %d, sa nenachadzaju v kruhu!\n", x, y);
+        }
     }
+    d->odhad = 4 * (nenach * 1.0 / nach);
     printf("Koniec vlakna konzument!\n");
 }
 
@@ -79,11 +106,17 @@ int main(int argc, char** argv) {
 
     printf("Zaciatok programu!\n");
 
-    int n;
-    if(argc == 2){
-        n = atoi(argv[1]);
+    int r, n;
+    if(argc == 3){
+        r = atoi(argv[1]);
+        n = atoi(argv[2]);
+        if(r <= 0 || n <= 0){
+            fprintf(stderr, "Argumenty musia byt kladne cislo!\n");
+            return 0;
+        }
     } else {
-        n = 10;
+        fprintf(stderr, "Zadal si malo parametrov!\n");
+        return 0;
     }
 
     pthread_mutex_t mutex;
@@ -95,18 +128,20 @@ int main(int argc, char** argv) {
     pthread_cond_init(&plno, NULL);
     pthread_cond_init(&prazdno, NULL);
 
-    int* data = malloc(sizeof (int) * 5);
+    int* data = malloc(sizeof (SURADNICE) * 20);
 
     BUFFER buffer = {
             data,
             0,
-            10,
+            20,
             &mutex
     };
 
     //Producent
     PRODUCENTDATA pd = {
             &buffer,
+            n,
+            r,
             &plno,
             &prazdno
     };
@@ -118,6 +153,9 @@ int main(int argc, char** argv) {
     //Konzument
     KONZUMENTDATA kd = {
             &buffer,
+            n,
+            r,
+            0.0,
             &plno,
             &prazdno
     };
@@ -129,6 +167,8 @@ int main(int argc, char** argv) {
     //Spojenie vlakien
     pthread_join(producent_vlakno, NULL);
     pthread_join(konzument_vlakno, NULL);
+
+    printf("Odhad cisla pi je: %f!\n", kd.odhad);
 
     //Cistenie pamate
     free(data);
